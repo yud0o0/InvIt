@@ -1,0 +1,10 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "minecraft:inv/leggings/inv_layer_1",
+                "use_player_texture": false
+            }
+        ]
+    }
+} 

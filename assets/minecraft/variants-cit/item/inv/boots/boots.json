@@ -1,0 +1,26 @@
+{
+	"context": "equippable",
+	"items": [
+        "minecraft:leather_boots",
+        "minecraft:golden_boots",
+        "minecraft:copper_boots",
+        "minecraft:chainmail_boots", 
+        "minecraft:iron_boots", 
+        "minecraft:diamond_boots",
+        "minecraft:netherite_boots" 
+	],
+	"modelPrefix": "inv/boots/",
+	"type": "component_data",
+	"parameters": {
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i).*inv.*",
+				"substitution": "boots",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

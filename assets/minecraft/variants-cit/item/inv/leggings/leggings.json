@@ -1,0 +1,26 @@
+{
+	"context": "equippable",
+	"items": [
+        "minecraft:leather_leggings",
+        "minecraft:golden_leggings",
+        "minecraft:copper_leggings",
+        "minecraft:chainmail_leggings", 
+        "minecraft:iron_leggings", 
+        "minecraft:diamond_leggings",
+        "minecraft:netherite_leggings" 
+	],
+	"modelPrefix": "inv/leggings/",
+	"type": "component_data",
+	"parameters": {
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i).*inv.*",
+				"substitution": "leggings",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}
